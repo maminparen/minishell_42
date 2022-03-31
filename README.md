@@ -1,8 +1,10 @@
 # minishell_42
 ![score](minishell.png)
-Group project:
+### Group project:
+```
 hzona(https://github.com/maminparen/)
 cdarrell(https://github.com/CroWcbr/)
+```
 
 The second project of the Unix branch at 42. Basic requirements are to recreate a basic working shell, with a few required builtins. History was implemented as a bonus builtin. Enviromental variables need to be set up and maintained. In the event that a command is input that is not a builtin, an attempt is made to execute it as is, followed by checking all paths for a valid matching executable.
 

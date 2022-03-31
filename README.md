@@ -1,59 +1,18 @@
 # minishell_42
-![score](minishell.png)
-### Group project:
-```
-hzona(https://github.com/maminparen/)
-cdarrell(https://github.com/CroWcbr/)
-```
 
-The second project of the Unix branch at 42. Basic requirements are to recreate a basic working shell, with a few required builtins. History was implemented as a bonus builtin. Enviromental variables need to be set up and maintained. In the event that a command is input that is not a builtin, an attempt is made to execute it as is, followed by checking all paths for a valid matching executable.
+## Info
+Group project (Kazan School21):
+- Hzona 
+- Cdarrell
+<img width="201" alt="Screen Shot 2021-11-20 at 9 54 09 PM" src="https://user-images.githubusercontent.com/94758944/143722228-f01e02a5-4cd7-4e02-9a25-89d28be45629.png">
 
-### Builtins Implemented
+## How to use
+- make
+- make bonus
 
-```
-cd
-echo
-env
-exit
-history
-setenv
-unsetenv
-```
+## Mandatory part
+All
 
-### Possible Optimization
-
-The official ls on macs, at the time of this writing, utilizes 38 flags. Adding more flags for a more complete recreation would be the next step.
-
-## Usage
-
-### Compilation
-
-Compiler:
-
-```
-clang-6.0
-```
-
-Dependencies:
-
-```
-libft
-readline
-```
-
-### Execution
-
-How to run:
-
-```
-./minishell
-```
-
-## Example
-
-```
-./minishell
-minishell > echo "Hello"
-Hello
-minishell >
-```
+## Bonus part
+- &&, || with parenthesis for priorities.
+- the wildcard * should work for the current working directory.
